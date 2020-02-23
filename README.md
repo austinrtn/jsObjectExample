@@ -3,6 +3,7 @@ An example I created for my JavaScript class that showcases a controlable "Recta
 
 Attriubtes:
 Width, length, color, speed, accelerate
+
 Functions:
 Draw, move, double
 
