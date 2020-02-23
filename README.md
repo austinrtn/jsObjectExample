@@ -4,4 +4,4 @@ An example I created for my JavaScript class that showcases a controlable "Recta
 Try the code here: 
 https://jsbin.com/lekatuw/edit?output
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/austinrtn/jsObjectExample/blob/master/Diagram.png)
