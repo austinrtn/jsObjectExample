@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <div align="center">
+      <canvas id="canvas"></canvas>
+    </div>
+    <br /><br />
+    <h1>Speed:</h1>
+    <input
+      type="range"
+      id="speed"
+      class="slider"
+      value="6"
+      min="1"
+      max="15"
+      onchange="changeSpeed();"
+    /> <br><br>
+    <h1>Color: </h1>
+    <select class="select" id="color" onchange="changeColor();">
+      <option class='red' value='#FF0000'>Red</option>
+      <option class='green' value='#02e628'>Green</option>
+      <option class='blue' value="#1a12ff">Blue</option>
+    </select> <br><br>
+
+    <script src="./src.js"></script>
+
+    <h1 id='xCord'>X Cord: </h1><br>
+    <h1 id='yCord'>y Cord: </h1><br><br>
+    <button onclick="alert('Move: WASD \nGrow: 2 \nShrink: 1');">Instructions</button>
+
+
+  </body>
+</html>
