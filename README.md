@@ -8,4 +8,4 @@ Functions:
 Draw, move, double
 
 Try the code here: 
-https://jsbin.com/lekatuw/edit?css,js,output
+https://jsbin.com/lekatuw/edit?output
