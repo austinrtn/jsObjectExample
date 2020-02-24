@@ -2,6 +2,6 @@
 An example I created for my JavaScript class that showcases a controlable "Rectangle" object.
 
 Try the code here: 
-https://jsbin.com/lekatuw/edit?output
+https://jsbin.com/lekatuw/1
 
 ![alt text](https://github.com/austinrtn/jsObjectExample/blob/master/Diagram.png)
