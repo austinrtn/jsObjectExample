@@ -7,7 +7,7 @@
   </head>
   <body>
     <div align="center">
-      <canvas id="canvas"></canvas>
+      <canvas id="canvas" onclick="addRect();"></canvas>
     </div>
     <br /><br />
     <h1>Speed:</h1>
@@ -27,12 +27,12 @@
       <option class='blue' value="#1a12ff">Blue</option>
     </select> <br><br>
 
-    <script src="./src.js"></script>
 
     <h1 id='xCord'>X Cord: </h1><br>
     <h1 id='yCord'>y Cord: </h1><br><br>
-    <button onclick="alert('Move: WASD \nGrow: 2 \nShrink: 1');">Instructions</button>
+    <button onclick="alert('Move: WASD \nChange Size: IJKL \nReset Size: O \nGrow: 2 \nShrink: 1');">Instructions</button>
 
+    <script src="./src.js"></script>
 
   </body>
 </html>
